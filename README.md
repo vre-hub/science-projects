@@ -15,7 +15,7 @@ This repo contains the code and the analysis steps to reproduce the analyses tha
 In order to re-run an analysis stored here, follow the following steps:
 
 - if you didn't already, create a IAM account following [this](https://datalake-rucio.docs.cern.ch/). It will authenticate you to the notebook service, Rucio and Reana. 
-- log into the [Jupyterhub notebook](https://escape-notebook.cern.ch/) and into the VRE's [Reana UI](ADDDDDD LLIIINKKKKK TO VRE REANA) interface by using your IAM credentials. 
+- log into the [Jupyterhub notebook](https://escape-notebook.cern.ch/) and into the VRE's [Reana UI](https://reana.cern.ch/) interface by using your IAM credentials. --> WILL CHANGE NEXT WEEK TO HAVE REANA VRE INSTANCE. 
 - open a terminal on Jupyterhub and add your reana server and reana secrets via the `reana-client` following [this](https://datalake-rucio.docs.cern.ch/reana/). 
 - clone the repo you are interested in. 
 - run the `reana.sh` script 
