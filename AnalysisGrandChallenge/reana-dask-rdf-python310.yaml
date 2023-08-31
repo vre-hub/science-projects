@@ -1,0 +1,17 @@
+version: 0.8.1
+inputs:
+  directories:
+    - cms-open-data-ttbar/
+workflow:
+
+  type: serial
+  specification:
+    steps:
+      - name: test
+        environment: 'ghcr.io/egazzarr/docker-tests-dask-root:latest' # python3.10
+#         compute_backend: kubernetes
+        commands:
+          - DASK_SCHEDULER_URI=tcp://10.254.49.132:8786 python cms-open-data-ttbar/analysis.py --n-max-files-per-sample 1 --remote-data-prefix root://eospublic.cern.ch//eos/root-eos/AGC
+outputs:
+  directories:
+   - cms-open-data-ttbar/
