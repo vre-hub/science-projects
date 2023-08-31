@@ -1,0 +1,3 @@
+[submodule "extreme_universe/Analysis-galactic-sources-CTA-KM3NeT"]
+	path = extreme_universe/Analysis-galactic-sources-CTA-KM3NeT
+	url = https://github.com/KM3NeT/Analysis-galactic-sources-CTA-KM3NeT
