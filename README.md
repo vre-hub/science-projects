@@ -16,10 +16,10 @@ If your project doesn't belong to the above categories, you can still use the VR
 This repo contains the code and the analysis steps to reproduce the analyses that the scientists have decided to make public. 
 In order to re-run an analysis stored here, follow the following steps:
 
-- if you didn't already, create a IAM account following [this](https://datalake-rucio.docs.cern.ch/). It will authenticate you to the notebook service, Rucio and Reana. 
+- if you didn't already, create a IAM account following [this](https://vre-hub.github.io/docs/rucio.html). It will authenticate you to the notebook service, Rucio and Reana. 
 - log into the [VRE Jupyterhub notebook service](https://jhub-vre.cern.ch/) by using your IAM credentials.
 - obtain a Reana token via the [VRE-Reana UI](https://reana-vre.cern.ch/) interface. 
-- open a terminal on Jupyterhub and add your reana server and reana secrets via the `reana-client` following [this](https://datalake-rucio.docs.cern.ch/reana/). 
+- open a terminal on Jupyterhub and add your reana server and reana secrets via the `reana-client` following [this](https://vre-hub.github.io/docs/reana.html). 
 - have a look how to create a reana file and how to run it by checking the `yaml` and the `bash` files of the, for example, [ATLAS Dark Matter reinterpretation](https://github.com/vre-hub/science-projects/tree/main/dark_matter/ATLAS-dilepton) science project.
 - check the status of your workflow run on the Reana UI and get the outputted results. 
 
