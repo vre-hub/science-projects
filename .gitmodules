@@ -4,3 +4,6 @@
 [submodule "dark_matter/DarkSide50_High_Mass_Recast"]
 	path = dark_matter/DarkSide50_High_Mass_Recast
 	url = https://github.com/PaoloSalomone/DarkSide50_High_Mass_Recast
+[submodule "dark_matter/km3net_km3irf"]
+	path = dark_matter/km3net_km3irf
+	url = https://github.com/gear8mike/usage_km3irf
