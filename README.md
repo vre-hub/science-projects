@@ -31,4 +31,4 @@ In order to re-run an analysis stored here, follow the following steps:
 
 This repository is a compilation of different projects, each one with its own license. The same applies to its citation. Please check the license and citation of each project before using it.
 
-If no licence is specified, the MIT licence of this repository applies.
+This repository is licensed under the MIT license. Please be aware that the license of this repository does not apply to the linked repositories submodules.
