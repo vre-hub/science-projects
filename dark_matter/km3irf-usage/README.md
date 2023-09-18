@@ -18,3 +18,6 @@ Create and activate a virtual environment:
   pip install -U pip
   pip install km3irf
 ```
+ ## Example
+
+ It provides the ability  to create IRFs files from `km3net_testdata`.
