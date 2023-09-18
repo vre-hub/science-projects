@@ -1,3 +1,6 @@
 [submodule "extreme_universe/Analysis-galactic-sources-CTA-KM3NeT"]
 	path = extreme_universe/Analysis-galactic-sources-CTA-KM3NeT
 	url = https://github.com/KM3NeT/Analysis-galactic-sources-CTA-KM3NeT
+[submodule "dark_matter/DarkSide50_High_Mass_Recast"]
+	path = dark_matter/DarkSide50_High_Mass_Recast
+	url = https://github.com/PaoloSalomone/DarkSide50_High_Mass_Recast
