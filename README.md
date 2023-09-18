@@ -11,7 +11,11 @@ The VRE aims at developing:
 - a solution to preserve the analysis steps in case of re-use 
 - an interdisciplinary open science example from a bottom-up effort
 
-If your project doesn't belong to the above categories, you can still use the VRE to run your analysis. Add your project within a new folder and follow the instructions below.
+If your project doesn't belong to the above categories, you can still use the VRE to run your analysis. Add your project within a new folder and follow the instructions below:
+
+1. Clone this repository with `git clone`
+2. Add your personal project with `git submodule add https://github.com/<PROFILE>/<REPOSITORY>` (Remember to put it in one of the existing folders or create a new category if necessary.)
+3. Create a Pull Request to add your new submodule
 
 This repo contains the code and the analysis steps to reproduce the analyses that the scientists have decided to make public. 
 In order to re-run an analysis stored here, follow the following steps:
@@ -26,3 +30,5 @@ In order to re-run an analysis stored here, follow the following steps:
 # License anc citation
 
 This repository is a compilation of different projects, each one with its own license. The same applies to its citation. Please check the license and citation of each project before using it.
+
+This repository is licensed under the MIT license. Please be aware that the license of this repository does not apply to the linked repositories submodules.
