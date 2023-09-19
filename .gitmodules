@@ -13,3 +13,6 @@
 [submodule "dark_matter/FermiLAT_Brown_Dwarf_Analysis"]
 	path = dark_matter/FermiLAT_Brown_Dwarf_Analysis
 	url = https://github.com/pooja1984/Brown_Dwarf_Analysis
+[submodule "dark_matter/FermiLAT-DM_dSphs_ML"]
+	path = dark_matter/FermiLAT-DM_dSphs_ML
+	url = https://github.com/pooja1984/MLFermiLATDwarfs
