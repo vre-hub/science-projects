@@ -1,5 +1,5 @@
-[submodule "extreme_universe/Analysis-galactic-sources-CTA-KM3NeT"]
-	path = extreme_universe/Analysis-galactic-sources-CTA-KM3NeT
+[submodule "extreme_universe/KM3NeT-CTA-Analysis-galactic-sources"]
+	path = extreme_universe/KM3NeT-CTA-Analysis-galactic-sources
 	url = https://github.com/KM3NeT/Analysis-galactic-sources-CTA-KM3NeT
 [submodule "dark_matter/DarkSide50_High_Mass_Recast"]
 	path = dark_matter/DarkSide50_High_Mass_Recast
@@ -7,3 +7,12 @@
 [submodule "dark_matter/km3net_km3irf"]
 	path = dark_matter/km3net_km3irf
 	url = https://github.com/gear8mike/usage_km3irf
+[submodule "dark_matter/ATLAS-dilepton"]
+	path = dark_matter/ATLAS-dilepton
+	url = https://github.com/jared-little/atlas-dilepton
+[submodule "dark_matter/FermiLAT_Brown_Dwarf_Analysis"]
+	path = dark_matter/FermiLAT_Brown_Dwarf_Analysis
+	url = https://github.com/pooja1984/Brown_Dwarf_Analysis
+[submodule "dark_matter/FermiLAT-DM_dSphs_ML"]
+	path = dark_matter/FermiLAT-DM_dSphs_ML
+	url = https://github.com/pooja1984/MLFermiLATDwarfs
