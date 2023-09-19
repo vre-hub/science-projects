@@ -10,3 +10,6 @@
 [submodule "dark_matter/ATLAS-dilepton"]
 	path = dark_matter/ATLAS-dilepton
 	url = https://github.com/jared-little/atlas-dilepton
+[submodule "dark_matter/FermiLAT_Brown_Dwarf_Analysis"]
+	path = dark_matter/FermiLAT_Brown_Dwarf_Analysis
+	url = https://github.com/pooja1984/Brown_Dwarf_Analysis
