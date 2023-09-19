@@ -7,3 +7,6 @@
 [submodule "dark_matter/km3net_km3irf"]
 	path = dark_matter/km3net_km3irf
 	url = https://github.com/gear8mike/usage_km3irf
+[submodule "dark_matter/ATLAS-dilepton"]
+	path = dark_matter/ATLAS-dilepton
+	url = https://github.com/jared-little/atlas-dilepton
