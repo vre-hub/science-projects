@@ -1,12 +1,6 @@
-[submodule "extreme_universe/KM3NeT-CTA-Analysis-galactic-sources"]
-	path = extreme_universe/KM3NeT-CTA-Analysis-galactic-sources
-	url = https://github.com/KM3NeT/Analysis-galactic-sources-CTA-KM3NeT
 [submodule "dark_matter/DarkSide50_High_Mass_Recast"]
 	path = dark_matter/DarkSide50_High_Mass_Recast
 	url = https://github.com/PaoloSalomone/DarkSide50_High_Mass_Recast
-[submodule "dark_matter/km3net_km3irf"]
-	path = dark_matter/km3net_km3irf
-	url = https://github.com/gear8mike/usage_km3irf
 [submodule "dark_matter/ATLAS-dilepton"]
 	path = dark_matter/ATLAS-dilepton
 	url = https://github.com/jared-little/atlas-dilepton
