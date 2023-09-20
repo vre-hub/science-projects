@@ -16,3 +16,6 @@
 [submodule "extreme_universe/KM3NeT-CTA-Analysis-galactic-sources"]
 	path = extreme_universe/KM3NeT-CTA-Analysis-galactic-sources
 	url = https://github.com/KM3NeT/Analysis-galactic-sources-CTA-KM3NeT
+[submodule "extreme_universe/Virgo-WDF"]
+	path = extreme_universe/Virgo-WDF
+	url = https://gitlab.com/wdfpipe/wdf
