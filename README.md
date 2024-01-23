@@ -14,7 +14,14 @@ The VRE aims at developing:
 If your project doesn't belong to the above categories, you can still use the VRE to run your analysis. Add your project within a new folder and follow the instructions below:
 
 1. Clone this repository with `git clone`
-2. Add your personal project with `git submodule add https://github.com/<PROFILE>/<REPOSITORY>` (Remember to put it in one of the existing folders or create a new category if necessary.)
+2. Add your project as a submodule of this repository  
+```bash
+$ git submodule add <url> <science_project>/<project_name>
+
+# For example
+$ git submodule add https://github.com/jared-little/atlas-dilepton dark_matter/ATLAS-dilepton
+```
+You can add the submodule to an existing directory (`dark_matter`, `extreme_universe`) or create a new category if necessary.
 3. Create a Pull Request to add your new submodule
 
 This repo contains the code and the analysis steps to reproduce the analyses that the scientists have decided to make public. 
