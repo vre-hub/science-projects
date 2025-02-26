@@ -1,4 +1,6 @@
-# EOSC-Future science projects - Reproducible analyses
+# Reproducible CERN VRE analyses
+
+## EOSC-Future science projects 
 
 EOSC-Future funds two differen kinds of science projects:
 1. Dark Matter 
@@ -11,7 +13,9 @@ The VRE aims at developing:
 - a solution to preserve the analysis steps in case of re-use 
 - an interdisciplinary open science example from a bottom-up effort
 
-If your project doesn't belong to the above categories, you can still use the VRE to run your analysis. Add your project within a new folder and follow the instructions below:
+## ESCAPE Open Collaboration and VRE related project
+
+If your project doesn't belong to the above categories, you can still use the VRE to run your analysis. Add your project to the `vre_projects` folder, or create a new one, and follow the instructions below:
 
 1. Clone this repository with `git clone`
 2. Add your project as a submodule of this repository  
@@ -31,7 +35,7 @@ In order to re-run an analysis stored here, follow the following steps:
 - log into the [VRE Jupyterhub notebook service](https://jhub-vre.cern.ch/) by using your IAM credentials.
 - obtain a Reana token via the [VRE-Reana UI](https://reana-vre.cern.ch/) interface. 
 - open a terminal on Jupyterhub and add your reana server and reana secrets via the `reana-client` following [this](https://vre-hub.github.io/docs/reana.html). 
-- have a look how to create a reana file and how to run it by checking the `yaml` and the `bash` files of the, for example, [ATLAS Dark Matter reinterpretation](https://github.com/vre-hub/science-projects/tree/main/dark_matter/ATLAS-dilepton) science project.
+- have a look how to create a reana file and how to run it by checking the `yaml` and the `bash` files of the, for example, [ATLAS Dark Matter reinterpretation](https://github.com/jared-little/atlas-dilepton/) science project.
 - check the status of your workflow run on the Reana UI and get the outputted results. 
 
 # License anc citation
