@@ -1,3 +1,27 @@
+[submodule "legacy_EOSC-future/dark_matter/DarkSide50_High_Mass_Recast"]
+	path = legacy_EOSC-future/dark_matter/DarkSide50_High_Mass_Recast
+	url = https://github.com/PaoloSalomone/DarkSide50_High_Mass_Recast
+[submodule "legacy_EOSC-future/dark_matter/ATLAS-dilepton"]
+	path = legacy_EOSC-future/dark_matter/ATLAS-dilepton
+	url = https://github.com/jared-little/atlas-dilepton
+[submodule "legacy_EOSC-future/dark_matter/FermiLAT_Brown_Dwarf_Analysis"]
+	path = legacy_EOSC-future/dark_matter/FermiLAT_Brown_Dwarf_Analysis
+	url = https://github.com/pooja1984/Brown_Dwarf_Analysis
+[submodule "legacy_EOSC-future/dark_matter/FermiLAT-DM_dSphs_ML"]
+	path = legacy_EOSC-future/dark_matter/FermiLAT-DM_dSphs_ML
+	url = https://github.com/pooja1984/MLFermiLATDwarfs
+[submodule "legacy_EOSC-future/dark_matter/ATLAS_semi-visible_jets"]
+	path = legacy_EOSC-future/dark_matter/ATLAS_semi-visible_jets
+	url = https://github.com/susinha1702/svj-tchannelreana
+[submodule "legacy_EOSC-future/dark_matter/KM3N3T_km3irf"]
+	path = legacy_EOSC-future/dark_matter/KM3N3T_km3irf
+	url = https://github.com/gear8mike/usage_km3irf
+[submodule "legacy_EOSC-future/extreme_universe/KM3NeT-CTA-Analysis-galactic-sources"]
+	path = legacy_EOSC-future/extreme_universe/KM3NeT-CTA-Analysis-galactic-sources
+	url = https://github.com/KM3NeT/Analysis-galactic-sources-CTA-KM3NeT
+[submodule "legacy_EOSC-future/extreme_universe/Virgo-WDF"]
+	path = legacy_EOSC-future/extreme_universe/Virgo-WDF
+	url = https://gitlab.com/wdfpipe/wdf
 [submodule "dark_matter/DarkSide50_High_Mass_Recast"]
 	path = dark_matter/DarkSide50_High_Mass_Recast
 	url = https://github.com/PaoloSalomone/DarkSide50_High_Mass_Recast
@@ -19,9 +43,9 @@
 [submodule "extreme_universe/KM3NeT-CTA-Analysis-galactic-sources"]
 	path = extreme_universe/KM3NeT-CTA-Analysis-galactic-sources
 	url = https://github.com/KM3NeT/Analysis-galactic-sources-CTA-KM3NeT
-[submodule "extreme_universe/Virgo-WDF"]
-	path = extreme_universe/Virgo-WDF
+[submodule "gravitational_waves/Virgo-WDF"]
+	path = gravitational_waves/Virgo-WDF
 	url = https://gitlab.com/wdfpipe/wdf
-[submodule "extreme_universe/ET-MDC-pygwb"]
-	path = extreme_universe/ET-MDC-pygwb
+[submodule "gravitational_waves/ET-MDC-pygwb"]
+	path = gravitational_waves/ET-MDC-pygwb
 	url = https://github.com/GeorgySk/et_mdc_pygwb
