@@ -22,6 +22,6 @@
 [submodule "extreme_universe/Virgo-WDF"]
 	path = extreme_universe/Virgo-WDF
 	url = https://gitlab.com/wdfpipe/wdf
-[submodule "extreme_universe/ET-MDC-pygwb"]
-	path = extreme_universe/ET-MDC-pygwb
+[submodule "vre_projects/ET-MDC-pygwb"]
+	path = vre_projects/ET-MDC-pygwb
 	url = https://github.com/GeorgySk/et_mdc_pygwb
