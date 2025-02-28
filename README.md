@@ -3,9 +3,9 @@
 The VRE aims at developing:
 - an infrastructure where to run an end-to-end analysis in one place
 - a solution to preserve the analysis steps in case of re-use 
-- an interdisciplinary open science example from a bottom-up effort
+- an interdisciplinary open science example built from a bottom-up effort
 
-## EOSC-Future science projects 
+## ESCAPE EOSC-Future science projects 
 
 [EOSC-Future](https://eoscfuture.eu/) funded two different kinds of science projects:
 1. [Dark Matter](https://projectescape.eu/dark-matter-test-science-project) 
@@ -28,17 +28,21 @@ $ git submodule add https://github.com/jared-little/atlas-dilepton dark_matter/A
 You can add the submodule to an existing directory (`dark_matter`, `extreme_universe`, `gravitational_waves`) or create a new category if necessary.
 3. Create a Pull Request to add your new submodule
 
-This repo contains the code and the analysis steps to reproduce the analyses that the scientists have decided to make public. 
+This repository contains the code and the analysis steps to reproduce the analyses that the scientists have decided to make public. 
 In order to re-run an analysis stored here, follow the following steps:
 
-- if you didn't already, create a IAM account following [this](https://vre-hub.github.io/docs/rucio.html). It will authenticate you to the notebook service, Rucio and Reana. 
-- log into the [VRE Jupyterhub notebook service](https://jhub-vre.cern.ch/) by using your IAM credentials.
-- obtain a Reana token via the [VRE-Reana UI](https://reana-vre.cern.ch/) interface. 
-- open a terminal on Jupyterhub and add your reana server and reana secrets via the `reana-client` following [this](https://vre-hub.github.io/docs/reana.html). 
-- have a look how to create a reana file and how to run it by checking the `yaml` and the `bash` files of the, for example, [ATLAS Dark Matter reinterpretation](https://github.com/jared-little/atlas-dilepton/) science project.
-- check the status of your workflow run on the Reana UI and get the outputted results. 
+- if you didn't already, create a IAM account following [this](https://vre-hub.github.io/docs/rucio.html). It will authenticate you to the JupyterLab service, Rucio and Reana. 
+- log into the [VRE platform](https://jhub-vre.cern.ch/) by using your IAM credentials.
+- then use Reana to execute your analysis. You have two ways of using Reana:
+  1. via the [VRE-Reana UI](https://reana-vre.cern.ch/):
+     -  obtain a Reana token via UI interface. 
+     - open a terminal on JupyterLab and add your reana server and reana secrets via the `reana-client` following [this](https://vre-hub.github.io/docs/reana.html). 
+     - have a look how to create a reana file and how to run it by checking the `yaml` and the `bash` files of the, for example, [ATLAS Dark Matter reinterpretation](https://github.com/jared-little/atlas-dilepton/) science project.
+     - check the status of your workflow run on the Reana UI and get the outputted results.
+  2. using the [Reana JupyterLab extension](https://github.com/vre-hub/reana-jupyterlab-extension):
+     - allows using the same functionalities as reana, but from the [JupyterLab interface](https://jhub-vre.cern.ch/).
 
-# License anc citation
+# License and citation
 
 This repository is a compilation of different projects, each one with its own license. The same applies to its citation. Please check the license and citation of each project before using it.
 
